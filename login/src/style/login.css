@@ -3,6 +3,7 @@
 
 :root{
     --color0: #fff;
+    --color1: #0000ff;
 }
 
 *{
@@ -75,7 +76,6 @@ section#frm-login{
 section#frm-login form#formulario-login div.frm-input{
     display: flex;
     flex-direction: column;
-    padding: 9px 0px;
     gap: 2px;
 }
 
@@ -95,9 +95,7 @@ input:focus {
 
 img{
     width: 50%;
-    
 }
-
 
 .btn-padrao{
     padding: 5px 12px;
