@@ -50,8 +50,8 @@ section#frm-login{
 section#frm-login{
     position: absolute;
     top: 50%;
-    left: 70%;
-    width: 40%;
+    left: 75%;
+    width: 20%;
     height: 45%;
     border-radius: 14px;
     transform: translate(-50%, -50%);
@@ -60,7 +60,7 @@ section#frm-login{
 }
 
 #formulario-login{
-    width: 50%;
+    width: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -93,10 +93,6 @@ input:focus {
     box-shadow: 0 0 5px rgba(0, 26, 255, 0.336);
 }
 
-img{
-    width: 50%;
-}
-
 .btn-padrao{
     padding: 5px 12px;
     background-color: #0000ff;
@@ -104,4 +100,9 @@ img{
     border: none;
     border-radius: 10px;
     max-width: 80px;
+}
+
+#div-btn{
+    display: flex;
+    justify-content: center;
 }
