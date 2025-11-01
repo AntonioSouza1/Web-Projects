@@ -155,8 +155,18 @@ p {
 }
 
 @media (max-height: 650px) {
+    body{
+        overflow: auto;
+    }
+
+    .container {
+        min-height: 350px;
+        height: 95%;
+    }
+
     .form-container {
         height: 100%;
+
     }
 
     .overlay-container {
